@@ -5,7 +5,7 @@ library(ggplot2)
 library(reshape2)
 library(dplyr) # a.o. for select fxn
 
-#setwd("/Users/lucien_schlaepfer/PycharmProjects/BK2_data_analysis") # TODO: SET RELATIVE PATH??
+#setwd("/Users/lucien_schlaepfer/PycharmProjects/BK2_data_analysis")
 
 dat <- read.table("pilze.csv", na.strings="NA", sep = ";", header = T, stringsAsFactors=T)
 
